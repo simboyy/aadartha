@@ -38,19 +38,19 @@ angular.module('shopnxApp')
       Modal.show(product,{title:title, api:'Product', columns: cols});
     };
     $scope.delete = function(product) {
-      // if(Settings.demo){
-      //   toastr.error('Delete not allowed in demo mode');
-      //   return;
-      // }
+      if(Settings.demo){
+        toastr.error('Delete not allowed in demo mode');
+        return;
+      }
       if(confirm('Are you sure to delete the product?')){
         Product.delete({id:product._id});
       }
     };
     $scope.save = function(product){
-      // if(Settings.demo){
-      //   toastr.error('Save not allowed in demo mode');
-      //   return;
-      // }
+      if(Settings.demo){
+        toastr.error('Save not allowed in demo mode');
+        return;
+      }
       if('variants' in $scope.product){
       }else{
           $scope.product.variants = [];
