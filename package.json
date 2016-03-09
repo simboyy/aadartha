@@ -4,6 +4,14 @@
   "description": "Online Store",
   "keywords": [
     "CodeNx",
+    "Node.js",
+    "application",
+    "AngularJS",
+    "Express",
+    "Mean",
+    "MongoDB",
+    "Shopping Cart",
+    "Single Page Web App"
   ],
   "author": {
     "name": "Swadesh",
@@ -13,6 +21,7 @@
   "homepage": "http://biri.in/",
   "main": "server/app.js",
   "dependencies": {
+    "bower":"^1.7.2",
     "async": "^1.4.2",
     "body-parser": "^1.5.2",
     "composable-middleware": "^0.3.0",
