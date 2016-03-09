@@ -4,7 +4,7 @@ angular.module('shopnxApp')
   .config(function ($stateProvider) {
     $stateProvider
       .state('main', {
-        title: 'eCommerce Fashion Store Using AngularJS - ShopNx',
+        title: 'Online Mega Store -Aadartha',
         url: '/',
         templateUrl: 'app/main/main.html',
         controller: 'MainCtrl',
